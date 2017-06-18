@@ -1,0 +1,19 @@
+{
+  "name": "hotelsearch",
+  "version": "1.0.0",
+  "description": "A custom implemented search Bar that will pick and display suggestions from Google Places API and Custom API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiteshdua1/HotelSearch.git"
+  },
+  "author": "Hitesh Dua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiteshdua1/HotelSearch/issues"
+  },
+  "homepage": "https://github.com/hiteshdua1/HotelSearch#readme"
+}
