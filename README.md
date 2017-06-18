@@ -1,7 +1,7 @@
 # HotelSearch
 A custom implemented search Bar that will pick and display suggestions from Google Places API and Custom API
 
-###Getting Started
+### Getting Started
 * Install npm modules using command ```npm install```
 * Set Environment variable API_KEY to google places api key
 * Run ```gulp serve``` command to run application on local
