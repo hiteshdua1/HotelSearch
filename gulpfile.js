@@ -1,17 +1,18 @@
-var gulp = require('gulp'),
-    nodemon = require('nodemon');
+var gulp = require('gulp');
 
-
-gulp.task('default',function() {
-    nodemon({
-        script: 'app.js',
-        ext: 'js',
-        env : {
-            PORT:8000
-        },
-        ignore:['./node_modules/**']
-    })
-    .on('restart', function() {
+gulp.task('serve', function () {
+  var nodemon = require('gulp-nodemon');
+  nodemon({ script: './src/server/app.js'
+        , ext: 'js'
+        , watch: ['src/server/']
+  }).on('restart', function() {
         console.log('Restarting');
-    });
+  });
+
 });
+
+
+gulp.task('default', function () {
+    gulp.start('serve');
+});
+

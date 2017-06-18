@@ -4,11 +4,16 @@
   "description": "A custom implemented search Bar that will pick and display suggestions from Google Places API and Custom API",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hiteshdua1/HotelSearch.git"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
   },
   "author": "Hitesh Dua",
   "license": "ISC",
@@ -17,3 +22,4 @@
   },
   "homepage": "https://github.com/hiteshdua1/HotelSearch#readme"
 }
+
