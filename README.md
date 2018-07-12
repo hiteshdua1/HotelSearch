@@ -8,5 +8,5 @@ Live Demo : https://clicklabs.herokuapp.com/
 * Set Environment variable API_KEY to google places api key
 * Run ```gulp serve``` command to run application on local
 * Navigate to ```http://localhost:8080``` to review the app
+![Alt Text](assets/autoCompleteDropDown.png?raw=true "Hotel Search")
 
-![Alt text](assets/app_layout.png?raw=true "Hotel Search")
