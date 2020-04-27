@@ -5,7 +5,7 @@
   "packageRules": [
         {
             "packagePatterns": ["^xlsx"],
-            "reviewers": ["hiteshdua1"],
+            "reviewers": ["hiteshdua1"]
         }
   ]
 }
