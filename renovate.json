@@ -6,6 +6,6 @@
         {
             "packagePatterns": ["^xlsx"],
             "reviewers": ["hiteshdua1"],
-        },
-  ],
+        }
+  ]
 }
