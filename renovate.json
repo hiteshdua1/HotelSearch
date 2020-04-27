@@ -4,8 +4,8 @@
   ],
   packageRules: [
         {
-            packagePatterns: ['^gulp'],
-            reviewers: ['hiteshdua1'],
+            "packagePatterns": ['^gulp'],
+            "reviewers": ['hiteshdua1'],
         },
   ],
 }
