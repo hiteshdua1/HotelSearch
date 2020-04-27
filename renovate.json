@@ -3,9 +3,13 @@
     "config:base"
   ],
   "packageRules": [
-        {
-            "packagePatterns": ["^xlsx"],
-            "reviewers": ["hiteshdua1"]
-        }
+    {
+      "packagePatterns": [
+        "^xlsx"
+      ],
+      "reviewers": [
+        "hiteshdua1"
+      ]
+    }
   ]
 }
