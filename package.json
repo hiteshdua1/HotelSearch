@@ -14,6 +14,7 @@
     "express": "^4.15.3",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1"
+    "xlsx":"^0.15.1"
   },
   "author": "Hitesh Dua",
   "license": "ISC",
