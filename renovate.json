@@ -6,6 +6,6 @@
         {
             packagePatterns: ['^gulp'],
             reviewers: ['hiteshdua1'],
-        }
+        },
   ],
 }
